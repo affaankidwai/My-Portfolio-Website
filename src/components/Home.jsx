@@ -13,7 +13,7 @@ const Home = () => {
     do we need to currently i have no idea lahdo oddsl h dh</p>
 
     <div>
-        <button className='text-white font-bold group border-2 px-6 py-4 my-2 flex items-center hover:bg-blue-600'>
+        <button className='text-white font-bold group border-3 px-6 py-4 my-2 flex items-center hover:bg-blue-800'>
         View Work 
         <span className='group-hover:rotate-90 duration-200'>
         <HiArrowNarrowRight className='ml-3'/>
