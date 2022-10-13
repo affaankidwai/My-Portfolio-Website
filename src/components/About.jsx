@@ -22,7 +22,7 @@ const About = () => {
                     </div>
                     <div>
                         <ul>
-                        <li>I am a sophomore in college. Currently pursuing B.Tech in CSE w/s in Artificial Intelligence and Machine Learning. I am a MERN stack developer </li>
+                        <li>I am a junios in college. Currently pursuing B.Tech in CSE w/s in Artificial Intelligence and Machine Learning from SRM KTR. I am a MERN stack developer and an aspiring Machine Learning Engineer </li>
                         </ul>
                     </div>
                 </div>
