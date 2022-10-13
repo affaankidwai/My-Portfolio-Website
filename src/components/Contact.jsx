@@ -18,7 +18,7 @@ const Contact = () => {
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
                 Contact Me!
               </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              <p className="lg:w-2/3 mx-auto leading-relaxed  text-2xl">
                 Reach out for tech doubts or if you wanna colab! 🤙🏻
               </p>
             </div>
@@ -67,18 +67,19 @@ const Contact = () => {
                     <textarea
                       id="message"
                       name="message"
-                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-22 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                     ></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-blue-100 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                  <button className="flex mx-auto text-white bg-blue-400 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
                     Submit
                   </button>
                 </div>
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                  <p className="p-2">Or reach out directly 👀</p>
-                  <a className="text-indigo-500">kidwaiaffaan@gmail.com</a>
+                  <p className="p-2 text-2xl">Or reach out directly 👀</p>
+                  {/* <a className="text-indigo-500">kidwaiaffaan@gmail.com</a> </a> */ }
+                  <a className="text-blue-300 hover:text-blue-700" href="mailto:kidwaiaffaan@gmail.com">Affaan Kidwai ✉️</a>
                   <p className="leading-normal my-5">
                     Chennai, Tamil Nadu
                     <br />
