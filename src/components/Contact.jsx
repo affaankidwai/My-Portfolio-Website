@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
-      <div className="flex flex-col justify-center items-center w-full h-full">
+      <div className="flex flex-col justify-center items-center w-full h-full ">
         {/* <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-blue-400">
@@ -12,17 +12,18 @@ const Contact = () => {
           </div>
           <div></div>
         </div> */}
-        <section className="text-gray-700 body-font relative">
-          <div className="container px-5 py-24 mx-auto">
+        <section className="text-gray-700 body-font relative ">
+          <div className="container px-5 py-24 mx-auto ">
             <div className="flex flex-col text-center w-full mb-12">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mt-8 mb-4 text-white ">
                 Contact Me!
               </h1>
-              <p className="lg:w-2/3 mx-auto leading-relaxed  text-2xl">
+              <p className="lg:w-2/3 mx-auto leading-relaxed  text-xl">
                 Reach out for tech doubts or if you wanna colab! 🤙🏻
               </p>
             </div>
-            <div className="lg:w-1/2 md:w-2/3 mx-auto">
+            <div className="lg:w-1/2 md:w-2/3 mx-auto p-2 ">
+              <div className="border-white border-2 p-10" >
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
                   <div className="relative">
@@ -72,14 +73,22 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-blue-400 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
+                  <button className="flex mx-auto text-white bg-blue-400 mt-4 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
                     Submit
                   </button>
                 </div>
-                <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                  <p className="p-2 text-2xl">Or reach out directly 👀</p>
-                  {/* <a className="text-indigo-500">kidwaiaffaan@gmail.com</a> </a> */ }
-                  <a className="text-blue-300 hover:text-blue-700" href="mailto:kidwaiaffaan@gmail.com">Affaan Kidwai ✉️</a>
+                </div>
+                </div>
+                <div className="p-2 w-full pt-2 mt-4   text-center">
+                
+                  <p className="p-2 text-xl">Or reach out directly 👀</p>
+                  {/* <a className="text-indigo-500">kidwaiaffaan@gmail.com</a> </a> */}
+                  <a
+                    className="text-blue-300 hover:text-blue-700"
+                    href="mailto:kidwaiaffaan@gmail.com"
+                  >
+                    Affaan Kidwai ✉️
+                  </a>
                   <p className="leading-normal my-5">
                     Chennai, Tamil Nadu
                     <br />
@@ -145,7 +154,8 @@ const Contact = () => {
                     </a>
                   </span>
                 </div>
-              </div>
+                
+              
             </div>
           </div>
         </section>
