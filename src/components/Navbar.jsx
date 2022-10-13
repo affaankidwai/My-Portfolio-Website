@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/Affaan.png'
 import { Link } from 'react-scroll';
+import Photography from './Photography'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -62,6 +63,15 @@ const Navbar = () => {
                 <li className='py-6 text-4xl'>Contact</li>
 
             </ul>
+
+        {/* Photography Page! */}
+
+        
+        <div className="hidden lg:flex fixed flex-col top-[36%] right-0">
+
+         <Photography />
+         </div>
+        
 
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
