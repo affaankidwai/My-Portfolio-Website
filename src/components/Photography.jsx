@@ -28,7 +28,7 @@ const Photography = () => {
       {isHovering && (
         <div className="flex flex-col h-50 border-whiteborder-1 shadow-lg shadow-blue-500/50 bg-gradient-to-r from-cyan-500 to-blue-500">
           <h2>Chech out my Photography Page!</h2>
-          <button className="border-2 border-white">Why not!</button>
+          <button className="border-1 border-white mx-20 my-10 bg-cyan-500 p-3">Sure!</button>
         </div>
       )}
     </div>

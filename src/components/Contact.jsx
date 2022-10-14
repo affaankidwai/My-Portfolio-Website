@@ -27,7 +27,7 @@ const Contact = () => {
               <form
                 method="POST"
                 action="https://getform.io/f/78e5a1ec-7ff1-4d36-b3c4-dafafe993a6a"
-                className="border-white border-2 p-10"
+                className="border-gray-300 border-2 p-10 rounded-lg"
               >
                 <div>
                   <div className="flex flex-wrap -m-2">
@@ -79,7 +79,7 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="p-2 w-full">
-                      <button className="flex mx-auto text-white bg-blue-400 mt-4 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
+                      <button className="flex mx-auto text-white  mt-4 border-0 py-2 px-8 focus:outline-none  rounded text-lg transition ease-in-out delay-150 bg-blue-400 hover:-translate-y-1 hover:scale-110 hover:bg-blue-700 duration-100">
                         Submit
                       </button>
                     </div>
