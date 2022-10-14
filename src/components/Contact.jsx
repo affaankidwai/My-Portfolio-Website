@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="contact" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full ">
         {/* <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -22,63 +22,70 @@ const Contact = () => {
                 Reach out for tech doubts or if you wanna colab! 🤙🏻
               </p>
             </div>
+
             <div className="lg:w-1/2 md:w-2/3 mx-auto p-2 ">
-              <div className="border-white border-2 p-10">
-                <div className="flex flex-wrap -m-2">
-                  <div className="p-2 w-1/2">
-                    <div className="relative">
-                      <label
-                        for="name"
-                        className="leading-7 text-sm text-gray-600"
-                      >
-                        Name
-                      </label>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                      />
+              <form
+                method="POST"
+                action="https://getform.io/f/78e5a1ec-7ff1-4d36-b3c4-dafafe993a6a"
+                className="border-white border-2 p-10"
+              >
+                <div>
+                  <div className="flex flex-wrap -m-2">
+                    <div className="p-2 w-1/2">
+                      <div className="relative">
+                        <label
+                          for="name"
+                          className="leading-7 text-sm text-gray-600"
+                        >
+                          Name
+                        </label>
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <div className="p-2 w-1/2">
-                    <div className="relative">
-                      <label
-                        for="email"
-                        className="leading-7 text-sm text-gray-600"
-                      >
-                        Email
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                      />
+                    <div className="p-2 w-1/2">
+                      <div className="relative">
+                        <label
+                          for="email"
+                          className="leading-7 text-sm text-gray-600"
+                        >
+                          Email
+                        </label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <div className="p-2 w-full">
-                    <div className="relative">
-                      <label
-                        for="message"
-                        className="leading-7 text-sm text-gray-600"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        id="message"
-                        name="message"
-                        className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-22 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                      ></textarea>
+                    <div className="p-2 w-full">
+                      <div className="relative">
+                        <label
+                          for="message"
+                          className="leading-7 text-sm text-gray-600"
+                        >
+                          Message
+                        </label>
+                        <textarea
+                          id="message"
+                          name="message"
+                          className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-22 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                        ></textarea>
+                      </div>
                     </div>
-                  </div>
-                  <div className="p-2 w-full">
-                    <button className="flex mx-auto text-white bg-blue-400 mt-4 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
-                      Submit
-                    </button>
+                    <div className="p-2 w-full">
+                      <button className="flex mx-auto text-white bg-blue-400 mt-4 border-0 py-2 px-8 focus:outline-none hover:bg-blue-700 rounded text-lg">
+                        Submit
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </form>
               <div className="p-2 w-full pt-2 mt-4   text-center">
                 <p className="p-2 text-xl">Or reach out directly 👀</p>
                 {/* <a className="text-indigo-500">kidwaiaffaan@gmail.com</a> </a> */}
