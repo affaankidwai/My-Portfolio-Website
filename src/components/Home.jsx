@@ -1,18 +1,21 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+// bg-[#0a192f]
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f] flex">
+    <div name="home" className="w-full h-screen flex">
       <div className="max-w-[550px] mx-auto flex flex-col justify-center h-full ml-60">
-        <p className="text-blue-200 font-bold">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-gray-400">
+        
+        <p className="text-blue-200 font-bold text-xl mb-3">Hi, my name is</p>
+        <h1 className="text-4xl sm:text-7xl font-bold text-gray-300">
           Affaan Kidwai
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-gray-500">
+        
+        <h2 className="text-4xl sm:text-7xl font-bold text-gray-400">
           I'm a Full Stack Web Developer.
         </h2>
-        <p className="text-gray-200">I am a full stack web</p>
+        <p className="text-gray-200 my-4">I am a full stack web</p>
         {/* <img class="scale-5" src="/Users/affaankidwai/Desktop/GitHub/My-Portfolio-Website/src/assets/DP.png" alt="Nothing bro" /> */}
 
         <div>

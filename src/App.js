@@ -14,14 +14,15 @@ function App() {
   return (
     
     <div>
-      <ParallaxProvider>
+    <div className="bg-gradient-to-r from-blue-600 to-indigo-500">
+      
     <Navbar />
     <Home />
     <About />
     <Skills />
     <Work />
     <Contact />
-    </ParallaxProvider>
+    </div>
     </div>
   );
 }
