@@ -3,8 +3,8 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+    <div name="home" className="w-full h-screen bg-[#0a192f] flex">
+      <div className="max-w-[550px] mx-auto flex flex-col justify-center h-full ml-60">
         <p className="text-blue-200 font-bold">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-gray-400">
           Affaan Kidwai
@@ -22,12 +22,16 @@ const Home = () => {
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
-          <img
-            src="src/assets/3d-business-guy-with-backpack-and-laptop.png"
-            alt="nothing"
-          />
-          <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+
+          {/* <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a> */}
         </div>
+      </div>
+      <div className="mx-auto flex flex-col justify-center mr-60 mt-52 h-80 w-80">
+        <img
+          className=""
+          src="https://cdn3d.iconscout.com/3d/premium/thumb/web-developer-4788760-3988051.png"
+          alt="nothing"
+        />
       </div>
     </div>
   );

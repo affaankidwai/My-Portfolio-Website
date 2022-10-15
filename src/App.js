@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import { Parallax } from 'react-scroll-parallax';
+import Work from "./components/Work";
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Home />
     <About />
     <Skills />
+    <Work />
     <Contact />
     </ParallaxProvider>
     </div>
