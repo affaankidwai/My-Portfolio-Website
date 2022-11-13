@@ -15,7 +15,7 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-gray-400">
           I'm a Full Stack Web Developer.
         </h2>
-        <p className="text-gray-200 my-4">I am a full stack web</p>
+        <p className="text-gray-200 my-4"></p>
         {/* <img class="scale-5" src="/Users/affaankidwai/Desktop/GitHub/My-Portfolio-Website/src/assets/DP.png" alt="Nothing bro" /> */}
 
         <div>

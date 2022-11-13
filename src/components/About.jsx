@@ -17,12 +17,13 @@ const About = () => {
                 </div>
                 </div>
                 <div className='max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8'>
-                    <div className='sm:text-right text-4xl font-bold'>
-                        <p>Hi, I'm Affaan. Nice to see you here! Have a look around</p>
+                    <div className='sm:text-right text-5xl font-bold'>
+                        <p>So good to see you here! Have a look around</p>
                     </div>
                     <div>
                         <ul>
-                        <li>I am a junios in college. Currently pursuing B.Tech in CSE w/s in Artificial Intelligence and Machine Learning from SRM KTR. I am a MERN stack developer and an aspiring Machine Learning Engineer </li>
+                        <li className='mb-5'>Junior in college, currently pursuing B.Tech in CSE w/s in AIML from SRM IST. I am a MERN stack developer. </li>
+                        <li>Tennis player at the national level, with a love for all sports. Cars are my second love, besides my passion for wildlife photography. I'm also into music and obviously scrolling reels 🥰</li>
                         </ul>
                     </div>
                 </div>
