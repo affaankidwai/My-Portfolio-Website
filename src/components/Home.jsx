@@ -1,6 +1,9 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
+
 // bg-[#0a192f]
+
 
 const Home = () => {
   return (
@@ -19,12 +22,17 @@ const Home = () => {
         {/* <img class="scale-5" src="/Users/affaankidwai/Desktop/GitHub/My-Portfolio-Website/src/assets/DP.png" alt="Nothing bro" /> */}
 
         <div>
+          {/* <Link to="about" smooth={true} duration={500}>
+              About
+            </Link> */}
+          <Link to="work" smooth={true} duration={500}>
           <button className="text-white font-bold group border-3 px-6 py-4 my-2 flex items-center hover:bg-blue-800">
-            View Work
+            VIEW WORK
             <span className="group-hover:rotate-90 duration-200">
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
+          </Link>
 
           {/* <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a> */}
         </div>
